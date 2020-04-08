@@ -1,4 +1,4 @@
-select nama_pintu_air,
+
 count(Status) filter(where Status = 'Normal') as jml_status_normal,
 count(Status) filter(where Status = 'Rawan') as jml_status_rawan,
 count(Status) filter(where Status = 'Waspada') as jml_status_waspada,
