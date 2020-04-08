@@ -1,4 +1,4 @@
-haihai
+
 sdfsdf
 with jml_wna as
 (Select nama_kecamatan, sum(laki_laki_wna+perempuan_wna) as jmlwna
