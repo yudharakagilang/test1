@@ -1,4 +1,4 @@
-create view jml_status_pintu_air as 
+
     select status_normal.nama_pintu_air, jml_status_normal, jml_status_rawan, jml_status_waspada, jml_status_kritis
     from
             (select distinct nama_pintu_air, count (status) as jml_status_waspada 
